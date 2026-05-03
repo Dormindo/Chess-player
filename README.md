@@ -181,6 +181,9 @@ chess-bot/
 - `selenium`: Automação web
 - `chess.engine`: Interface com Stockfish
 
+### Instalação das dependencias
+- `pip install python-chess selenium webdriver-manager
+
 ##  Avisos Importantes
 
 ### Sobre o Uso em Chess.com
