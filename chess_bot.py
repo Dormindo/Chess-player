@@ -1,7 +1,3 @@
-"""
-Bot de Xadrez para Chess.com - VERSÃO ATUALIZADA 2.0
-Com seletores robustos e múltiplas estratégias de localização
-"""
 
 import chess
 import chess.engine
@@ -18,9 +14,7 @@ import re
 
 
 class ChessComBotV2:
-    """
-    Bot atualizado com múltiplas estratégias de localização de casas
-    """
+        
     
     def __init__(self, username, password, engine_path=None):
         self.username = username

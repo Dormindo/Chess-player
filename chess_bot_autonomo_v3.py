@@ -443,8 +443,8 @@ def main():
     print("="*70)
     print()
 
-    USERNAME = "seu_usuario"
-    PASSWORD = "sua_senha"
+    USERNAME = "none"
+    PASSWORD = "none"
     STOCKFISH_PATH = None
     TEMPO_PENSAMENTO = 1.0
     MODO_HEADLESS = False
@@ -462,9 +462,9 @@ def main():
 
     try:
         bot.setup_browser()
-        if not bot.login():
-            print("[ERRO] Login falhou")
-            return
+        bot.driver.get("https://www.chess.com/login")
+        print("\n[*] Faça login manualmente no navegador...")
+        input("Pressione ENTER após concluir o login...")
         bot.setup_engine()
 
         print("\n" + "="*70)
