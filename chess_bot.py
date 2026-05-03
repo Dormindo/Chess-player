@@ -349,8 +349,8 @@ def main():
     print("="*60)
     
     # CONFIGURAÇÕES - ALTERE AQUI
-    USERNAME = "pzww"  # ← MUDE AQUI
-    PASSWORD = "Khvsarbx@120110"    # ← MUDE AQUI
+    USERNAME = "user"  # ← MUDE AQUI
+    PASSWORD = "pass"    # ← MUDE AQUI
     STOCKFISH_PATH = None     # ← Caminho do Stockfish (opcional)
     
     # Exemplo Windows: r"C:\stockfish\stockfish.exe"
