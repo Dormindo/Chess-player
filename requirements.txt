@@ -1,0 +1,18 @@
+# Dependências do Bot de Xadrez para Chess.com
+
+# Biblioteca principal de xadrez
+python-chess==1.999
+
+# Automação web
+selenium==4.15.2
+
+# Driver do Chrome (gerenciamento automático)
+webdriver-manager==4.0.1
+
+# Processamento de imagens (opcional, para OCR do tabuleiro)
+# Pillow==10.1.0
+# opencv-python==4.8.1.78
+
+# Análise de dados (opcional)
+# numpy==1.26.2
+# pandas==2.1.3
