@@ -22,7 +22,7 @@ Bot automatizado em Python para jogar xadrez online no Chess.com, desenvolvido c
 - ✅ Modo teste local (jogar no terminal)
 - ✅ Documentação completa do código
 
-## 🔧 Pré-requisitos
+##  Pré-requisitos
 
 ### Software Necessário
 
@@ -70,6 +70,12 @@ source venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Instalação das dependencias codigo unico
+
+```bash
+pip install python-chess selenium webdriver-manager
 ```
 
 ### Passo 4: Instale o Stockfish
@@ -180,9 +186,6 @@ chess-bot/
 - `python-chess`: Manipulação de tabuleiros e regras
 - `selenium`: Automação web
 - `chess.engine`: Interface com Stockfish
-
-### Instalação das dependencias
-- `pip install python-chess selenium webdriver-manager
 
 ##  Avisos Importantes
 
